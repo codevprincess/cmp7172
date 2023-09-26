@@ -28,6 +28,8 @@ int main()
 	// Filter the image with a 9x9 gaussian filter, stdev 4 in both directions
 	// time the filtering function and print the elapsed time to the console.
 
+
+
 	cv::GaussianBlur(noisyImage, gaussBlurImage, cv::Size(9, 9), 4.f, 4.f);
 	cv::imwrite("../images/car_gaussblur.jpg", gaussBlurImage);
 

@@ -105,6 +105,8 @@ int main()
 		// 2. If you get weird colours, remember OpenCV images come in BGR format by default. 
 		//    You might need to swap it to RGB before providing it to OpenGL (use cv::cvtColor()).
 
+		
+
 		bool shouldQuit = false;
 		SDL_Event event;
 
