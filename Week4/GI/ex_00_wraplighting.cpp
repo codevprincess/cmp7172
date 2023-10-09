@@ -159,6 +159,14 @@ int main()
 
 				// --- Your code here ---
 				// You could add your controls to adjust the wrapLighting effect here
+
+				if (event.type == SDL_KEYDOWN)
+				{
+					if (event.key.keysym.sym == SDLK_)
+					{
+
+					}
+				}
 			}
 			glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
 			glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);

@@ -15,6 +15,7 @@ in vec2 texCoord;
 
 out vec4 colorOut;
 uniform vec4 color;
+uniform float wrapAmount;
 
 void main()
 {
@@ -24,5 +25,7 @@ void main()
 
 	colorOut.xyz = albedo;
 	colorOut.a = 1.0;
+
+	wrapAmount = 1.0
 }
 
